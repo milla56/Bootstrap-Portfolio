@@ -1,0 +1,239 @@
+:root {
+    --text: #DCCAE9;
+    --softpurple: #A6A9C8;
+    --text2: #D3D9E9;
+    --dark: #31293F;
+    --dark2: #272932;
+    --middletone: #554D74;
+  }
+  
+  
+  /* Text */
+  h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Jura', sans-serif;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: var(--dark2);
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: #8E839E;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: var(--text2) !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron  */
+  .jumbotron {
+    background-image: url(../images/bck2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(80vh - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  /* Jumbotron text */
+  .jumbotext {
+    width: 70%;
+    min-width: 700px;
+    color: white;
+    text-align: center !important;
+    margin-bottom: 60px;
+    font-weight: bold;
+    margin-left: 50%;
+  }
+  
+  .display-4 {
+    margin-bottom: 25px;
+  }
+  
+  
+  
+  /* ABOUT ME*/
+  .about {
+    margin-top: 80%;
+  }
+  
+  .h2 {
+    font-size: 40px;
+  }
+  .img-fluid {
+  max-width: 12rem;
+  }
+  
+  
+  /* Skills */
+  
+  #skills {
+    margin-top: 100%;
+  }
+  
+  
+  .card-title {
+    font-size: 26px;
+    color: var(--dark);
+    border-bottom: 2px solid var(--softpurple);
+    text-align: center;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: var(--middletone);
+    text-align: left;
+  
+  }
+  
+  .card-body {
+    background-color: var(--text2);
+    
+  }
+  
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  /*PROJECTS*/
+  
+  .sectionHeading2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .imageContainer img{
+    width: 150px;
+  }
+  
+  .row1 {
+    background-image: url(../images/bck4.png);
+    padding: 25px;
+    height: 200px;
+    width: 1400px;
+    margin-bottom: 25px;
+  }
+  
+  .text1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: -12%;
+    color: var(--text2);
+  }
+  .text1 h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .text1 p {
+    font-size: 15px;
+  }
+  
+  .row2 {
+    background-image: url(../images/bck4.png);
+    padding: 25px;
+    height: 200px;
+    width: 1400px;
+    margin-bottom: 25px;
+  
+  }
+  
+  .text2 { 
+    text-align: left;
+    margin-left: 20%;
+    margin-top: -12%;
+    color: var(--text2);
+  }
+  .text2 h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .text2 p {
+    font-size: 15px;
+  }
+  
+  
+  .row3 {
+    background-image: url(../images/bck4.png);
+    padding: 25px;
+    height: 200px;
+    width: 1400px;
+    margin-bottom: 25px;
+  
+  }
+  
+  .text3 { 
+    text-align: left;
+    margin-left: 20%;
+    margin-top: -12%;
+    color: var(--text2);
+  }
+  .text3 h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .text3 p {
+    font-size: 15px;
+  }
+  
+  .btn {
+    background-color: #FF69B4;
+    color: black;
+  }
+  
+  /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+  .dropdown-menu {
+    left: -97px;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  }
+  
+  
