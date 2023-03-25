@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Bootstrap-Portfolio</title>
   </head>
@@ -42,7 +43,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Me</a>
+            <a class="nav-link" href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -58,30 +59,38 @@
           & UX Designer</p>
           </div>
       </div>
+      </div>
 
 
     <!-- About Me -->
-    <section class="about">
-      <div class="row">
-      <div class="abanner">
-      <div id="aboutme" class="aboutme">
-    <h2>About Me</h2>
+  
+  <section class="aboutme" id="aboutme">
+    <h2 class="display-4">About me</h2>
+    <div class="container bg-secondary">
+      <div class="row align-items-center" id="pannel">
+        <div class="col-lg-5 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="images/my portrait1.jpg" alt="self portrait">
+          </div>
+        </div>
+        <div class="col-lg-7 order-lg-1 text-white">
+          <div class="p-5">
+            <h3 class="name">Hello,my name is Lubomila, but you can call me Mila.</h3>
+            <p>Graphic Designer and Junior web Developer experienced in managing multiple websites 
+                and web application design projects. 
+                Proficient at developing creative and functional designs, web page layout, 
+                creating user interfaces, writing and testing codes, 
+                and infrastructure 
+                to maintain a cohesive website consistent with clients needs.</p>
+            <a href="#" class="btn1 btn-lg btn-outline-light">
+               <i class="fas fa-download"></i>
+               Download my Resume!</a>
+               <ion-icon name="logo-behance"></ion-icon>
+
+          </div>
+        </div>
       </div>
-      <img class="img-fluid rounded-circle" src="images/my portrait1.jpg." alt="portrait">
-      <div class="text">
-      <p>
-        Innovative,task-driven professional with five years experience in graphic design and 
-        junior web
-        developer managing multiple websites and web application design projects. 
-        Proficient at developing creative and 
-        functional designs, web page layout, creating user interfaces, writing and testing codes, 
-        and infrastructure 
-        to maintain a cohesive website consistent with clients needs.
-      </p>
-      </div>
-      </div>
-  </div>
-</div>
+    </div>
   </section>
 
      <!-- Skills -->
@@ -204,10 +213,56 @@ websites for mobile devices using responsive design.
             <a href="#" class="btn btn-primary">View Portfolio</a>
           </div>
         </div>
-        <!-- End row 3 -->
-  
+    </div>
+
+     <!--CONTACTS-->
+     <h2 class="sectionHeading3">Contact Me</h2>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body1 text-center">
+              <i class="fa fa-map-marker" aria-hidden="true" id="icon"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4" />
+              <div class="small">Coventry,United Kingdom</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body1 text-center">
+              <i class="fa fa-envelope" aria-hidden="true" id="icon"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4" />
+              <div class="small">lubomila14@gmail.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body1 text-center">
+              <i class="fa fa-phone" aria-hidden="true" id="icon"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4" />
+              <div class="small">+123 456 789 </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- End content -->
+    </section>
+
+        <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="social d-flex justify-content-center">
+        <a class="mx-2" href="https://www.behance.net/lubomillozanov"> <i class="fa fa-behance" aria-hidden="true"></i></a>
+        <a class="mx-2" href="https://github.com/milla56"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a class="mx-2" href="https://www.linkedin.com/in/mila-lozanova-a97b62184/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      </div>
+      <p class="text-muted small mb-4 mb-lg-0">&copy; Typeface by Lubomila Lozanova 2023. All Rights Reserved!</p>
+    </footer>
+     
 
 
 

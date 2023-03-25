@@ -77,7 +77,7 @@
     text-align: center !important;
     margin-bottom: 60px;
     font-weight: bold;
-    margin-left: 50%;
+    
   }
   
   .display-4 {
@@ -87,22 +87,44 @@
   
   
   /* ABOUT ME*/
-  .about {
-    margin-top: 80%;
+  .aboutme {
+    margin-top: 5%;
+    background-image: url(../images/bck6.png);
+    height: 480px;
   }
+  #pannel {
+   background-color: #f6f6f6;
   
-  .h2 {
+    
+  }
+  .aboutme h2 {
     font-size: 40px;
+    text-align: center;
+  }
+
+  .aboutme h3{
+    margin-bottom: 6%;
+    color: black;
+  }
+
+  .aboutme p{
+    margin-bottom: 5%;
+    color: black;
   }
   .img-fluid {
-  max-width: 12rem;
+  max-width: 300px;
   }
   
+  .btn1 {
+    background-color: #FFB6C1;
+    color: 	#f6f6f6;
+  }
   
   /* Skills */
   
   #skills {
-    margin-top: 100%;
+    margin-top: 3%;
+    background-image: url(../images/bck7.png);
   }
   
   
@@ -130,7 +152,8 @@
   }
   .sectionHeading1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
   }
   
   .card img {
@@ -219,10 +242,42 @@
   }
   
   .btn {
-    background-color: #FF69B4;
+    background-color: #FFB6C1;
     color: black;
   }
-  
+
+  /*Contact*/
+  .sectionHeading3 {
+    text-align: center;
+  }
+
+  .contact {
+    background-image: url(../images/bck8.png);
+  }
+
+  .card {
+    background-color: #F8EDEB;
+  }
+.card-body1 {
+  background-color: #F8EDEB;
+}
+#icon {
+  color: #FFB5A7;
+}
+  /*FOOTER*/
+
+  .fa {
+    color: #8E839E;
+    
+  }
+.footer {
+  font-size: 46px;
+}
+
+.footer p {
+font-size:13px;
+text-align: center;
+}
   /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
   .dropdown-menu {
     left: -97px;
