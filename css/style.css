@@ -119,7 +119,9 @@
     background-color: #FFB6C1;
     color: 	#f6f6f6;
   }
-  
+  #download {
+    color: white;
+  }
   /* Skills */
   
   #skills {
@@ -163,7 +165,7 @@
   /*PROJECTS*/
   
   .sectionHeading2 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -249,6 +251,8 @@
   /*Contact*/
   .sectionHeading3 {
     text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
 
   .contact {
@@ -263,6 +267,7 @@
 }
 #icon {
   color: #FFB5A7;
+  font-size: 25px;
 }
   /*FOOTER*/
 
