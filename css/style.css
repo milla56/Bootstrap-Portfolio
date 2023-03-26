@@ -289,6 +289,7 @@
   }
 .footer {
   font-size: 46px;
+  margin-top: 2%;
 }
 
 .footer p {
@@ -297,7 +298,100 @@ text-align: center;
 }
 
 /* Media Queries*/
+
 /*Large devices*/
+@media (max-width: 992px) {
+.jumbotext p {
+  font-size: 20px;
+}
+
+
+/* About me*/
+.aboutme {
+  margin-top: 5%;
+  background: none;
+}
+
+.aboutme h2 {
+  font-size: 40px;
+}
+.name {
+  font-size: 24px;
+}
+.aboutme p {
+  font-size: 16px;
+}
+.img-fluid {
+  max-width: 200px;
+ margin-left:200px;
+ margin-bottom: -10%;
+  }
+.container bg-secondary {
+  width: 80%;
+}
+#pannel {
+  border: 2px solid var(--button);
+}
+
+/* SKILLS*/
+.sectionHeading1 {
+  margin-bottom: 5%;
+}
+#skills {
+  margin-top: 30%;
+}
+.card-title {
+  font-size: 21px;
+}
+.card-text {
+  font-size: 15px;
+  text-align: left;
+}
+
+/* PROJECTS*/
+.row1 {
+  display: flex;
+  justify-content: start;
+  width: 105%;
+  height: 100%;
+  }
+   .text1{
+    text-align: left;
+   margin-top: auto;
+    margin-left: -3%;
+    margin-right: 50%;
+   }
+   .row2 {
+    display: flex;
+    justify-content: start;
+    width: 105%;
+    height: 100%;
+    }
+     .text2{
+      text-align: left;
+     margin-top: auto;
+      margin-left: -3%;
+      margin-right: 50%;
+     }
+     .row3 {
+      display: flex;
+      justify-content: start;
+      width: 105%;
+      height: 100%;
+      }
+       .text3{
+        text-align: left;
+       margin-top: auto;
+        margin-left: -3%;
+        margin-right: 50%;
+       }
+       /*FOOTER*/
+       .footer {
+        font-size: 36px;
+        margin-top: 3%;
+      }
+}
+
 
  /* Tablet Medium devices*/
  @media screen and (max-width:768px) {
@@ -323,6 +417,7 @@ width: 50px;
   position: relative;
   width:100%;
  }
+
 /* About me*/
 .aboutme {
   margin-top: 5%;
@@ -415,6 +510,7 @@ width: 50px;
  }
   
    /* Small devices*/
+   @media (min-width: 576px) {}
   
 
 
