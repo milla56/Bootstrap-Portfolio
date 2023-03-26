@@ -56,8 +56,7 @@
 - Icons,Font Awesome
 
 ## Installation
-
-N/A
+Follow the link for the final version of the website [Portfolio](https://milla56.github.io/Bootstrap-Portfolio/) 
 
 ## Credits
 
