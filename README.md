@@ -35,13 +35,13 @@
 - In order for the website to be responsive I used media queries in CSS styles according to the device's type.
    1.  I used media query with max-width: 992px, in order to target Large devices. 
     ![840 px demo](./screenshot/840px.gif)
-   The screen size in this demo is 468px.
+   The screen size in this demo is 840px.
     2.  I used media query with max-width:768px, in order to target medium devices (tablet). 
     ![730 px demo](./screenshot/730px.gif)
-   The screen size in this demo is 468px.
+   The screen size in this demo is 730px.
    3.  I used media query with max-width: 600px and min-width: 400px, in order to target small devices (mobile phones). 
     ![440 px demo](./screenshot/440px.gif)
-   The screen size in this demo is 468px.
+   The screen size in this demo is 440px.
 
 
  ## Features
