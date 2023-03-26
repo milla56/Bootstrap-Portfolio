@@ -509,8 +509,134 @@ width: 50px;
 
  }
   
-   /* Small devices*/
-   @media (min-width: 576px) {}
+   /* Small devices- MOBILE PHONES*/
+   @media screen and (max-width: 600px) and (min-width: 400px) {
+    .jumbotext h1 {
+      font-size: 27px;
+    }
+    .jumbotext p {
+      font-size:12px;  
+    }
+    .jumbotron {
+      position: relative;
+      width:100%;
+     }
+
+/* About me*/
+.aboutme {
+  margin-top: 5%;
+  background: none;
+}
+
+.aboutme h3 {
+  font-size: 25px;
+  margin-top: -25%;
+  text-align: center;
+}
+.name {
+  font-size: 24px;
+}
+.aboutme p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.img-fluid {
+  max-width: 200px;
+ margin-left:60px;
+ margin-bottom: -3%;
+  }
+.container bg-secondary {
+  width: 70%;
+}
+/*SKILLS*/
+#skills {
+margin-top: 70%;
+background: none;
+}
+
+.sectionHeading1 {
+  color: black;
+  text-align: center;
+  margin-left: -20%;
+}
+
+/* PROJECTS*/
+.row1 {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 520px;
+  margin-bottom: 10%;
+  }
+.imageContainer img {
+  width: 70px;
+  }
+.text1{
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: -3%;
+  margin-right: 50%;
+  font-size: 16px;
+  text-align: right;
+ }
+ .text1 h3 {
+  font-size: 22px;
+  text-align: right;
+ }
+ .row2 {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 455px;
+  margin-bottom: 10%;
+ }
+ .text2{
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: -3%;
+  margin-right: 50%;
+  font-size: 16px;
+  text-align: right;
+ }
+ .text2 h3 {
+  font-size: 22px;
+  text-align: right;
+ }
+ .row3 {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10%;
+ }
+ .text3{
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: -3%;
+  margin-right: 50%;
+  font-size: 16px;
+  text-align: right;
+ }
+ .text3 h3 {
+  font-size: 22px;
+  text-align: right;
+ }
+
+ /*CONTACTS*/
+ .sectionHeading3 {
+  font-size: 30px;
+ }
+
+ /*FOOTER*/
+.footer {
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  }
   
 
 
